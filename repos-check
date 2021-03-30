@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+
+. "./repos-list.sh"
+
+for i in "${repos[@]}"
+do
+    cd "./prj/${i}"
+    echo $(pwd)
+    git fetch -v
+    git status -s
+    git rev-parse HEAD
+    git ls-remote --heads -q
+    cd ../..
+done
+
+
+

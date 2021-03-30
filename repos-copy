@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+. "./repos-list.sh"
+if [[ ($# -ne 1) ]]
+then
+    echo "usage is $0 <directory to copy repos to>"
+else
+    BASE=$1
+    readonly TIMESTAMP=$( date '+%Y-%m-%d_%0H%0M%0S' )
+    readonly DEST=$BASE/$TIMESTAMP
+    mkdir -p $DEST
+    readonly DEST_ABS=$(realpath $DEST)
+    printf "copying all repos to $DEST_ABS\n"
+    readonly START=$(date +%s)
+    for i in "${repos[@]}" ; do
+        cd ./prj/${i}
+        echo $(pwd)
+        mkdir -p $DEST_ABS/prj/${i}
+        cp -a .git $DEST_ABS/prj/${i}/
+        cd ../..
+    done
+    readonly END=$(date +%s)
+    readonly DIFF=$(echo "$END - $START" | bc)
+    printf "Done in $DIFF secs.\n"
+fi

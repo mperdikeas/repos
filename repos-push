@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+. "./repos-list.sh"
+
+for i in "${repos[@]}"
+do
+    cd "./prj/${i}"
+    echo $(pwd)
+    git push
+    git status -s
+    cd ../..
+done
+
+
+
