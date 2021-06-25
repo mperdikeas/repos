@@ -13,9 +13,10 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                   "demo-spa-and-web-services-with-jwt-auth-type-01" "js-react-leaflet" "archetype-react-router" "archetype-js-grokking-rest-syntax"
                   "archetype-ts-node-playground" "archetype-ts-antd-playground" "sscce-typescript-react-eslint"
                   "playground-ts-node-promises" "antd-form-list-sscce" "openlayers-playground" "cognitera-iacs"
-                  "iacs-application-db"
                         )
+
+declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java")
 
 declare -a gitlab_repos=("java-mutil" "playground" "environment-sensitive" "mant-tasks" "google-foobar" "ant-template" "job-applications")
 
-declare -a repos=( "${github_repos[@]}" "${gitlab_repos[@]}" )
+declare -a repos=( "${github_repos[@]}" "${github_cognitera_repos[@]}" "${gitlab_repos[@]}" )
