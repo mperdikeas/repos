@@ -15,7 +15,7 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                   "playground-ts-node-promises" "antd-form-list-sscce" "openlayers-playground" "cognitera-iacs"
                         )
 
-declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java")
+declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java" "cognitera-treetag-study")
 
 declare -a gitlab_repos=("java-mutil" "playground" "environment-sensitive" "mant-tasks" "google-foobar" "ant-template" "job-applications")
 
