@@ -1,3 +1,4 @@
+# github repos belonging to "mperdikeas"
 declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.com" "archetypes" "clojure-mutil"
                    "zip-diff" "euler-js"
                   "js-react-minesweeper" "js-object-properties" "js-sort-enum" "js-ai-for-shogi-like-games"
@@ -13,10 +14,13 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                   "demo-spa-and-web-services-with-jwt-auth-type-01" "js-react-leaflet" "archetype-react-router" "archetype-js-grokking-rest-syntax"
                   "archetype-ts-node-playground" "archetype-ts-antd-playground" "sscce-typescript-react-eslint"
                   "playground-ts-node-promises" "antd-form-list-sscce" "openlayers-playground" "cognitera-iacs"
+                  "cognitera-treetag-study"
                         )
 
-declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java" "cognitera-treetag-study")
+# these are repos that belong to the "cognitera" github account (not "mperdikeas")
+declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java")
 
+# gitlab repos belong to "mperdikeas"
 declare -a gitlab_repos=("java-mutil" "playground" "environment-sensitive" "mant-tasks" "google-foobar" "ant-template" "job-applications")
 
 declare -a repos=( "${github_repos[@]}" "${github_cognitera_repos[@]}" "${gitlab_repos[@]}" )
