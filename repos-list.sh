@@ -18,7 +18,10 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                         )
 
 # these are repos that belong to the "cognitera" github account (not "mperdikeas")
-declare -a github_cognitera_repos=("iacs-application-db" "iacs-backend-java" "opekepe-postgres-migration")
+declare -a github_cognitera_repos=("iacs-application-db"
+                                   "iacs-backend-java"
+                                   "opekepe-postgres-migration"
+                                  "cognitera-materials")
 
 # gitlab repos belong to "mperdikeas"
 declare -a gitlab_repos=("java-mutil" "playground" "environment-sensitive" "mant-tasks" "google-foobar" "ant-template" "job-applications")
