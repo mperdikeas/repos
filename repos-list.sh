@@ -14,7 +14,8 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                   "demo-spa-and-web-services-with-jwt-auth-type-01" "js-react-leaflet" "archetype-react-router" "archetype-js-grokking-rest-syntax"
                   "archetype-ts-node-playground" "archetype-ts-antd-playground" "sscce-typescript-react-eslint"
                   "playground-ts-node-promises" "antd-form-list-sscce" "openlayers-playground" "cognitera-iacs"
-                  "cognitera-treetag-study"
+                  "cognitera-treetag-study" "ora2pg-migration-assessment" "ora2pg-restore-constraints" "ora2pg-check-constraints-editing"
+                  "db-statistics"
                         )
 
 # these are repos that belong to the "cognitera" github account (not "mperdikeas")
