@@ -22,7 +22,9 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
 declare -a github_cognitera_repos=("iacs-application-db"
                                    "iacs-backend-java"
                                    "opekepe-postgres-migration"
-                                  "cognitera-materials")
+                                   "cognitera-materials"
+                                   "iacs-basic-scheme-adjustment"
+                                  )
 
 # gitlab repos belong to "mperdikeas"
 declare -a gitlab_repos=("java-mutil" "playground" "environment-sensitive" "mant-tasks" "google-foobar" "ant-template" "job-applications")
