@@ -11,11 +11,11 @@ declare -a github_repos=("tools" "environment" "ocaml-mutil" "mperdikeas.github.
                   "sscce-ant-compile-trigger" "py-algorithms" "jar-zipgroupfileset-problem-SSCCE"
                   "js-vibrations" "py-number-theory" "py-probability" "js-cubehelix" "js-cubehelix-demo"
                   "js-towers-of-hanoi" "archetype-webpack-babel-mocha-react" "archetype-java-ant-ivy" "archetype-JSON-web-tokens-JJWT" "digiterra"
-                  "demo-spa-and-web-services-with-jwt-auth-type-01" "js-react-leaflet" "archetype-react-router" "archetype-js-grokking-rest-syntax"
+                  "demo-spa-and-web-services-with-jwt-auth-type-01" "js-react-leaflet-treetag" "archetype-react-router" "archetype-js-grokking-rest-syntax"
                   "archetype-ts-node-playground" "archetype-ts-antd-playground" "sscce-typescript-react-eslint"
                   "playground-ts-node-promises" "antd-form-list-sscce" "openlayers-playground" "cognitera-iacs"
                   "cognitera-treetag-study" "ora2pg-migration-assessment" "ora2pg-check-constraints-editing"
-                  "db-statistics"
+                  "db-statistics" "archetype-ts-node"
                         )
 
 # these are repos that belong to the "cognitera" github account (not "mperdikeas")
